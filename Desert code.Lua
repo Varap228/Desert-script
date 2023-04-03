@@ -7,7 +7,7 @@ local Section = Tab:NewSection("main")
 local Tab_EF = Window:NewTab("Esp and Fly")
 local Section_EF = Tab_EF:NewSection("Not my esp Not my fly")
 Section_cred:NewButton("copy my github", "", function()
-	setclipboard("")
+	setclipboard("https://github.com/Varap228/Desert-script/tree/main")
 	game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Copy",
 	Text = "My github copied to clipboard", 
@@ -15,7 +15,7 @@ Section_cred:NewButton("copy my github", "", function()
 })
 end)
 Section_cred:NewButton("copy my pastebin", "", function()
-	setclipboard("")
+	setclipboard("https://pastebin.com/sF13zEP0")
 	game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Copy",
 	Text = "My pastebin copied to clipboard", 
